@@ -5,19 +5,19 @@ Console.InputEncoding = Encoding.Unicode;
 Console.OutputEncoding = Encoding.Unicode;
 
 Console.WriteLine("Назовите имя");
-string Name;
+string name;
 Name = Console.ReadLine();
 
 Console.WriteLine("Назовите ваш возраст");
-int Age;
+int age;
 Age = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("назовите ваш знак Зодиака");
-string Zodiac;
+string zodiac;
 Zodiac = Console.ReadLine();
 
 Console.WriteLine("Назовите место вашей работы");
-string Work;
+string work;
 Work = Console.ReadLine();
 
 Console.WriteLine($"Ваше имя {Name}, вам {Age}, ваш знак зодиака {Zodiac},а Ваше место работы {Work}");
