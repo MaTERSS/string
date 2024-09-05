@@ -20,5 +20,5 @@ Console.WriteLine("Назовите место вашей работы");
 string work;
 Work = Console.ReadLine();
 
-Console.WriteLine($"Ваше имя {Name}, вам {Age}, ваш знак зодиака {Zodiac},а Ваше место работы {Work}");
+Console.WriteLine($"Ваше имя {name}, вам {age}, ваш знак зодиака {zodiac},а Ваше место работы {work}");
 
